@@ -20,9 +20,9 @@ USER_NAME=$(whoami)
 ├── meow                   # Meow可执行文件
 ├── config.yaml            # Meow配置文件
 ├── Country.mmdb           # IP地址数据库
-├── meow_manager.sh       # 主管理脚本
-├── meow_aliases.sh       # 快捷别名配置
-└── README.md             # 使用说明
+├── meow_manager.sh        # 主管理脚本
+├── meow_aliases.sh        # 快捷别名配置
+└── README.md              # 使用说明
 ```
 
 ## 快速开始
