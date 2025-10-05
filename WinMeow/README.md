@@ -1,6 +1,6 @@
 # Windows 命令行代理工具
 
-## test_meow_proxy.ps1 - Meow 代理连接测试脚本
+## ps_proxy.ps1 - Meow 代理连接测试脚本
 
 ### 功能
 检测 Windows PowerShell 命令行环境下，通过 Meow 代理访问指定网站的连通性。
@@ -8,16 +8,16 @@
 ### 使用方法
 ```powershell
 # 测试当前代理状态（默认）
-.\WinCLI\test_meow_proxy.ps1
+.\WinCLI\ps_proxy.ps1
 
 # 开启命令行代理环境变量并测试
-.\WinCLI\test_meow_proxy.ps1 on
+.\WinCLI\ps_proxy.ps1 on
 
 # 关闭命令行代理环境变量并测试  
-.\WinCLI\test_meow_proxy.ps1 off
+.\WinCLI\ps_proxy.ps1 off
 
 # 仅测试连接性
-.\WinCLI\test_meow_proxy.ps1 test
+.\WinCLI\ps_proxy.ps1 test
 ```
 
 ### 测试网站列表
